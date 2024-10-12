@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    height: 400px;
+    background-color: cadetblue;
+    grid-template-columns: auto 40px auto;
+    grid-template-rows: auto 100px auto;
+    align-content: center;
+
+}
+
+
+.grid-container div {
+    background-color: chocolate;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* h1 {
+
+    color: deeppink;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid black;
+    width: 300px;
+    height: 150px;
+} */
+
+
+h1 {
+
+    color: deeppink;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid black;
+
+}
+
+/* Se aplicara el color aquamarine a los que tengan el id=cabecera3*/
+#cabecera3 {
+    color: aquamarine;
+}
+
+/* Se aplicara el color coral a todos los que en el otro código de html tengan la clase text-coral*/
+.text-coral {
+
+    color: coral;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+p {
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-danger {
+    color: crimson;
+    font-weight: bold;
+}
